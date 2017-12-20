@@ -1,0 +1,4 @@
+#/usr/bin/bash
+cd VnomBackdoor
+chmod +x VnomBackdoor.sh
+./VnomBackdoor.sh

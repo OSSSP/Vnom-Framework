@@ -1,0 +1,31 @@
+#/usr/bin/bash
+clear
+echo -e "\033[31m........................................."
+figlet VENom
+echo -e "\033[31m........................................."
+echo -e "\033[35m Script Created By Davistar"
+echo -e "\033[32m https://www.instagram.com/davistar16/?hl=fr"
+echo -e "\033[36m https://www.youtube.com/channel/UCmRpdW8WVVA4o3nhPjMG3Bg/videos"
+echo -e "\033[32m Welcome to the Vnom-Framework"
+echo -e "\033[31m ........................................................"
+PS3="choose options>>> "
+    select choix in \
+       "launch VnomBackdoor" \
+       "launch VnomForce" \
+       "launch VnomMap" \
+       "launch VnomNetwork" \
+       "launch SETUP" \
+       "exit"
+     do
+       case $REPLY in
+          1) ./VBR  ;;
+          2) ./VF  ;;
+          3) ./VM ;;
+          4) ./VN ;;
+          5) ./SETUP.sh ;;
+          6) echo "exit....."
+             break ;;
+          *) echo "options not valid !!!" ;;
+       esac
+   exit
+done

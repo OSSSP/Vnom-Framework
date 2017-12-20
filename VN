@@ -1,0 +1,4 @@
+#/usr/bin/bash
+cd VnomNetwork
+chmod +x run.sh
+./run.sh

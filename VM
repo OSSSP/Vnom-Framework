@@ -1,0 +1,4 @@
+#/usr/bin/bash
+cd VnomMap
+chmod +x VnomMap.sh
+./VnomMap.sh
